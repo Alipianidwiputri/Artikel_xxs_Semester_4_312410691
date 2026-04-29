@@ -204,8 +204,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <img width="986" height="674" alt="Cuplikan layar 2026-04-25 204852" src="https://github.com/user-attachments/assets/508b8a2c-3ef2-439e-a660-626708e3ec89" />
 *Gambar 1. Tampilan awal halaman index.php yang rentan*
 
+
+
+
 <img width="1919" height="936" alt="Cuplikan layar 2026-04-25 205002" src="https://github.com/user-attachments/assets/b98bb301-e62c-4a99-9d1b-a47f286fcee7" />
 *Gambar 2. Kolom Pesan diisi dengan payload XSS*
+
+
+
 
 <img width="1919" height="450" alt="Cuplikan layar 2026-04-25 205029" src="https://github.com/user-attachments/assets/4c6c0303-1131-4350-b487-beac8016bf5d" />
 *Gambar 3. Pop-up alert berhasil muncul — XSS terkonfirmasi*
@@ -253,8 +259,14 @@ Payload yang sama diuji pada `aman.php` yang menggunakan `htmlspecialchars()`.
 <img width="1918" height="739" alt="Cuplikan layar 2026-04-25 210815" src="https://github.com/user-attachments/assets/2bf48d23-51d1-4a9e-9cfb-80aa7ef5a6bc" />
 *Gambar 6. Tampilan aman.php dengan proteksi aktif*
 
+
+
+
 <img width="1919" height="714" alt="Cuplikan layar 2026-04-25 210852" src="https://github.com/user-attachments/assets/74838db9-5811-4798-b39b-e29a9381cd4d" />
 *Gambar 7. Payload yang sama dimasukkan ke versi aman*
+
+
+
 
 <img width="1914" height="855" alt="Cuplikan layar 2026-04-25 210905" src="https://github.com/user-attachments/assets/0aa55c7e-ea56-430c-8ea8-3b9aa6fe5c87" />
 *Gambar 8. Payload tampil sebagai teks biasa — serangan digagalkan*
