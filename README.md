@@ -1,9 +1,9 @@
 
 **Nama: Alipiani Dwi Putri** | **Mata Kuliah: Pemrograman Web 2**
 
-**NIM: 312410691** | **Prodi: Teknik Informatika**
+**NIM: 312410691**           | **Prodi: Teknik Informatika**
 
-**Kelas: I241B** | **Dosen Pengampu: Agung Nugroho, S.Kom., M.Kom.**
+**Kelas: I241B**             | **Dosen Pengampu: Agung Nugroho, S.Kom., M.Kom.**
 
 **Artikel Ilmiah** 
 
