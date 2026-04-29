@@ -244,7 +244,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ---
 
-### Skenario 4 — Mitigasi dengan htmlspecialchars()
+### 4. Mitigasi dengan htmlspecialchars()
 
 Payload yang sama diuji pada `aman.php` yang menggunakan `htmlspecialchars()`.
 
