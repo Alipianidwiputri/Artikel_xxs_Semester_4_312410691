@@ -1,9 +1,16 @@
+
+> **Nama: Alipiani Dwi Putri**
+> **NIM: 312410691** 
+> **Kelas: I241B**
+> **Mata Kuliah: Pemrograman Web 2**
+> **Prodi: Teknik Informatika**
+> **Dosen Pengampu: Agung Nugroho, S.Kom., M.Kom.**
+> **Artikel Ilmiah** 
+
+---
+
 # Eksperimen XSS (Cross-Site Scripting)
 ### Script Berbahaya di Balik Kolom Komentar: Eksperimen XSS dan Cara Mencegahnya
-
-> **Artikel Ilmiah | Pemrograman Web 2 | Teknik Informatika**  
-> **Alipiani Dwi Putri | NIM 312410691 | Kelas I241B**  
-> **Universitas Pelita Bangsa**
 
 ---
 
@@ -287,4 +294,7 @@ Yang tampil di browser sebagai teks biasa, bukan kode yang dieksekusi.
 
 ---
 
+# Hasil Plagiasi
+
+<img width="1674" height="527" alt="Cuplikan layar 2026-04-29 154412" src="https://github.com/user-attachments/assets/635144e0-5794-4e72-b629-1f7b810bf29c" />
 
