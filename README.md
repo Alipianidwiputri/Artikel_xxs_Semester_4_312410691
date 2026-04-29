@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ## Hasil Eksperimen
 
-### Skenario 1 — Serangan Dasar: Alert Popup
+### 1. Serangan Dasar: Alert Popup
 
 **Payload yang digunakan:**
 ```javascript
@@ -190,8 +190,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 **Hasil:** Browser langsung memunculkan pop-up dialog bertuliskan _"HACKED! Ini adalah serangan XSS!"_ — membuktikan JavaScript berhasil dieksekusi.
 
-**Screenshot:**
-
 <img width="986" height="674" alt="Cuplikan layar 2026-04-25 204852" src="https://github.com/user-attachments/assets/508b8a2c-3ef2-439e-a660-626708e3ec89" />
 *Gambar 1. Tampilan awal halaman index.php yang rentan*
 
@@ -203,7 +201,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ---
 
-### Skenario 2 — Pencurian Cookie Sesi
+### 2. Pencurian Cookie Sesi
 
 **Payload yang digunakan:**
 ```javascript
@@ -212,15 +210,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 **Hasil:** Browser menampilkan nilai cookie sesi yang tersimpan. Dalam aplikasi nyata, data ini bisa dikirim ke server penyerang untuk melakukan **session hijacking** — mengambil alih akun pengguna tanpa perlu tahu password.
 
- **Screenshot:**
-
 <img width="1919" height="428" alt="Cuplikan layar 2026-04-25 205123" src="https://github.com/user-attachments/assets/7207ad5a-23d7-4fb7-aef7-c93bd401eed4" />
 
 *Gambar 4. Pop-up menampilkan nilai cookie sesi pengguna*
 
 ---
 
-### Skenario 3 — Defacement Halaman
+### 3. Defacement Halaman
 
 **Payload yang digunakan:**
 ```javascript
@@ -232,8 +228,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 **Hasil:** Seluruh konten halaman web hilang dan digantikan layar merah dengan tulisan "HALAMAN INI TELAH DIRETAS!" — membuktikan penyerang dapat memanipulasi penuh apa yang dilihat pengguna.
 
-**Screenshot:**
-
 <img width="1919" height="472" alt="Cuplikan layar 2026-04-25 205155" src="https://github.com/user-attachments/assets/bc4d983c-d909-4fd6-a962-c084c5d8492d" />
 *Gambar 5. Halaman berubah total — demonstrasi defacement via XSS*
 
@@ -244,8 +238,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 Payload yang sama diuji pada `aman.php` yang menggunakan `htmlspecialchars()`.
 
 **Hasil:** Tidak ada pop-up. Payload tampil sebagai **teks mentah** di kolom komentar — membuktikan mitigasi bekerja sempurna.
-
-**Screenshot:**
 
 <img width="1918" height="739" alt="Cuplikan layar 2026-04-25 210815" src="https://github.com/user-attachments/assets/2bf48d23-51d1-4a9e-9cfb-80aa7ef5a6bc" />
 *Gambar 6. Tampilan aman.php dengan proteksi aktif*
@@ -295,6 +287,4 @@ Yang tampil di browser sebagai teks biasa, bukan kode yang dieksekusi.
 
 ---
 
----
 
-*Alipiani Dwi Putri | NIM 312410691 | Kelas I241B | Universitas Pelita Bangsa*
