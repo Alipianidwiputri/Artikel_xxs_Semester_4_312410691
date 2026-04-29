@@ -249,6 +249,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 **Hasil:** Seluruh konten halaman web hilang dan digantikan layar merah dengan tulisan "HALAMAN INI TELAH DIRETAS!" — membuktikan penyerang dapat memanipulasi penuh apa yang dilihat pengguna.
 
 <img width="1919" height="472" alt="Cuplikan layar 2026-04-25 205155" src="https://github.com/user-attachments/assets/bc4d983c-d909-4fd6-a962-c084c5d8492d" />
+
 *Gambar 5. Halaman berubah total — demonstrasi defacement via XSS*
 
 ---
@@ -260,18 +261,21 @@ Payload yang sama diuji pada `aman.php` yang menggunakan `htmlspecialchars()`.
 **Hasil:** Tidak ada pop-up. Payload tampil sebagai **teks mentah** di kolom komentar — membuktikan mitigasi bekerja sempurna.
 
 <img width="1918" height="739" alt="Cuplikan layar 2026-04-25 210815" src="https://github.com/user-attachments/assets/2bf48d23-51d1-4a9e-9cfb-80aa7ef5a6bc" />
+
 *Gambar 6. Tampilan aman.php dengan proteksi aktif*
 
 
 
 
 <img width="1919" height="714" alt="Cuplikan layar 2026-04-25 210852" src="https://github.com/user-attachments/assets/74838db9-5811-4798-b39b-e29a9381cd4d" />
+
 *Gambar 7. Payload yang sama dimasukkan ke versi aman*
 
 
 
 
 <img width="1914" height="855" alt="Cuplikan layar 2026-04-25 210905" src="https://github.com/user-attachments/assets/0aa55c7e-ea56-430c-8ea8-3b9aa6fe5c87" />
+
 *Gambar 8. Payload tampil sebagai teks biasa — serangan digagalkan*
 
 ---
