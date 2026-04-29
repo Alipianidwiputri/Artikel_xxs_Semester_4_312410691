@@ -202,18 +202,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 **Hasil:** Browser langsung memunculkan pop-up dialog bertuliskan _"HACKED! Ini adalah serangan XSS!"_ — membuktikan JavaScript berhasil dieksekusi.
 
 <img width="986" height="674" alt="Cuplikan layar 2026-04-25 204852" src="https://github.com/user-attachments/assets/508b8a2c-3ef2-439e-a660-626708e3ec89" />
+
 *Gambar 1. Tampilan awal halaman index.php yang rentan*
 
 
 
 
 <img width="1919" height="936" alt="Cuplikan layar 2026-04-25 205002" src="https://github.com/user-attachments/assets/b98bb301-e62c-4a99-9d1b-a47f286fcee7" />
+
 *Gambar 2. Kolom Pesan diisi dengan payload XSS*
 
 
 
 
 <img width="1919" height="450" alt="Cuplikan layar 2026-04-25 205029" src="https://github.com/user-attachments/assets/4c6c0303-1131-4350-b487-beac8016bf5d" />
+
 *Gambar 3. Pop-up alert berhasil muncul — XSS terkonfirmasi*
 
 ---
